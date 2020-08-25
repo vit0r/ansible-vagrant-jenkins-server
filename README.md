@@ -15,7 +15,7 @@ vagrant up
 vim /etc/ansible/hosts
 
 [jenkinsservers]
-192.168.25.13
+192.168.100.13
 
 [jenkinsservers:vars]
 ansible_ssh_private_key_file=/home/vit0r/Projects/ansible-jenkins-server/.vagrant/machines/default/virtualbox/private_key
